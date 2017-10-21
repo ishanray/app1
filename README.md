@@ -12,4 +12,5 @@ prod:
 - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 - sudo apt-get update && sudo apt-get install yarn
 - yarn global add pm2
+- yarn (in app directory)
 - pm2 start npm -- start
